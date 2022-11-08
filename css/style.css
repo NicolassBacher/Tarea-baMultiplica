@@ -38,7 +38,7 @@ header {
 }
 
 header nav{
-    width: 30vw;
+    width: 40vw;
 }
 
 .navegacion {
@@ -95,9 +95,9 @@ font-size: 20px;
     padding: 10vh 5vw 15vh 5vw;
 }
 
-.productos {
+#productos {
     width: 100%;
-    min-height: 600px;
+    min-height: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -107,7 +107,7 @@ font-size: 20px;
 
 .caja {
     width: 300px;
-    height: 500px;
+    height: 600px;
     border: 2px ;
     border-style: double;
     border-width: 8px;
@@ -117,6 +117,7 @@ font-size: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background: lightgray;
 }
 
 .caja img {
@@ -143,6 +144,8 @@ font-size: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    text-align: center;
+    padding: 20px;
 }
 
 .resumen-fotos img {
@@ -150,10 +153,6 @@ font-size: 20px;
     max-height: 70vh;
     object-fit:scale-down;
 }
-
-/* .visually-hidden {
-    color: #333;
-} */
 
 #carouselExampleIndicators {
     width: 90%;
@@ -186,4 +185,8 @@ footer {
 form {
     display: flex;
     flex-direction: column;
+}
+
+.formulario {
+    padding: 30px;
 }
