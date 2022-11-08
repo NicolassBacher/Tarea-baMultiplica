@@ -56,11 +56,12 @@ font-size: 20px;
 }
 
 .navegacion li a{
-   cursor: pointer;
-   color: white;
+    cursor: pointer;
+    color: white;
 }
 
 .listaDesplegable {
+    padding: 0px;
     position: absolute;
     display: none;
 }
@@ -85,13 +86,13 @@ font-size: 20px;
 
 .titulo {
     font-size: 80px;
-    padding: 50px 200px 150px 50px;
+    padding: 10vh 5vw 15vh 5vw;
 
 }
 
 .subtitulo {
     font-size: 50px;
-    padding: 100px 200px 100px 50px;
+    padding: 10vh 5vw 15vh 5vw;
 }
 
 .productos {
@@ -101,6 +102,7 @@ font-size: 20px;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    flex-wrap: wrap;
 }
 
 .caja {
@@ -116,6 +118,64 @@ font-size: 20px;
     align-items: center;
     justify-content: space-evenly;
 }
+
+.caja img {
+    max-width: 250px;
+    max-height: 300px;
+
+}
+
+#somos {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: lightgray;
+}
+
+.resumen-fotos {
+    width: 59%;
+    min-width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.resumen-fotos img {
+    max-width: 100%;
+    max-height: 70vh;
+    object-fit:scale-down;
+}
+
+/* .visually-hidden {
+    color: #333;
+} */
+
+#carouselExampleIndicators {
+    width: 90%;
+    height: 70vh;
+}
+
+.contenedorVideo {
+    width: 40%;
+    min-width: 330px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.video {
+    min-width: 300px;
+    max-height: 90vh;
+}
+
 
 footer {
     width: 100%;
